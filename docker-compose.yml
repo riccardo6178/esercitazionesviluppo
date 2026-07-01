@@ -1,0 +1,7 @@
+services: 
+  api:
+    build:
+    container_name: fastapi-ec2-cicd
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
